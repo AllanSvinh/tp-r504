@@ -13,7 +13,4 @@ def puissance(nombre_a, nombre_b):
 	for i in range(nombre_b):
 		result=result*nombre_a
 
-	if nombre_b < 0:
-		return 1 / result
-
 	return result
