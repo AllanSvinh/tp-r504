@@ -17,10 +17,9 @@ def test_zero_positif():
 	assert f.puissance(0, 100) == 0
 
 def test_zero_negative():
-
 	with pytest.raises(ValueError):
 		f.puissance(0,-1)
 
 	with pytest.raises(ValueError):
-		f.puissance(0.-100)
+		f.puissance(0,-100)
 
