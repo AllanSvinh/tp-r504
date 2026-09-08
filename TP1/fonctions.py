@@ -4,5 +4,8 @@ def puissance(nombre_a, nombre_b):
     
     if not type(nombre_b) is int:
         raise TypeError("Only integers are allowed")
+
+    if nombre_a == 0 and nombre_b < 0:
+        raise ValueError("0 élevé à une puissance négative est indéfini")
         
     return nombre_a ** nombre_b
