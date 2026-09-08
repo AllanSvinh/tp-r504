@@ -14,6 +14,6 @@ def puissance(nombre_a, nombre_b):
 		result=result*nombre_a
 
 	if nombre_b < 0:
-        return 1 / resultat
+        return 1 / result
 
 	return result
