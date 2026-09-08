@@ -10,7 +10,7 @@ def puissance(nombre_a, nombre_b):
 
 	result = 1
 
-	for i in range(nombre_b):
+	for i in range(abs(nombre_b)):
 		result=result*nombre_a
 
 	if nombre_b < 0:
