@@ -23,3 +23,4 @@ def test_zero_negative():
 	with pytest.raises(ValueError):
 		f.puissance(0,-100)
 
+def 
